@@ -91,3 +91,16 @@ small{
 .icono{
 	color: #ff9a00;
 }
+
+.rsp{
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.rsp{
+		display: block;
+	}
+	.navbar{
+		display: none;
+	}
+}
