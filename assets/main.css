@@ -1,0 +1,93 @@
+/*
+	Google Fonts
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    font-family: 'Varela Round', sans-serif;
+
+    font-family: 'Titillium Web', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+}
+body{
+	background-color: #212121;
+	font-family: 'Nunito', sans-serif;
+}
+h1,h2,h3{
+	font-family: 'Titillium Web', sans-serif;
+}
+section p{
+	text-indent: 5%;
+	text-align: justify;
+}
+header{
+	height: 100px;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1%;
+}
+header p{
+	color: white;
+	padding-top: 1%;
+}
+header a:hover{
+	text-decoration: none;
+}
+
+.subhead{
+	width: 25%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	#logo{
+		width: 25%;
+		height: auto;
+	}
+.navbar{
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+}
+	.navbar a, section a{
+		text-decoration: none;
+		color: white;
+	}
+	.navbar a:hover, .navbar a:focus, section a:hover{
+		color: #FF7E38;
+	}
+section a{
+	font-weight: 700;
+}
+section	li{
+	list-style:none
+}
+.pad2t{
+	padding-top: 2%;
+}
+hr{border-color: #ff9a00;}
+small{
+	color: #ff9a00;
+}
+.work{
+	padding: 5%;
+	background-color: #323232;
+}
+.icono{
+	color: #ff9a00;
+}
