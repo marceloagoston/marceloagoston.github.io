@@ -103,4 +103,8 @@ small{
 	.navbar{
 		display: none;
 	}
+	.drp{
+		background-color: #212121;
+		border-color: #212121;
+	}
 }
