@@ -96,7 +96,7 @@ small{
 	display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
 	.rsp{
 		display: block;
 	}
