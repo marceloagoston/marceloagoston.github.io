@@ -117,10 +117,14 @@ small{
     background-color: #212121;
     border-color: #212121;
 }
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #262626;
+    border-color: #262626;
+}
 
 .dropdown-menu.show a{
-	color: RGBA(255, 255, 255, .7);
+	color: rgba(255, 255, 255, .7);
 }
 .dropdown-menu.show a:hover{
-	color: RGBA(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
