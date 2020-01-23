@@ -108,3 +108,19 @@ small{
 		border-color: #212121;
 	}
 }
+
+/* Override Bootstrap */
+.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+    border-color: #212121;
+}
+
+.dropdown-menu.show a{
+	color: RGBA(255, 255, 255, .7);
+}
+.dropdown-menu.show a:hover{
+	color: RGBA(255, 255, 255, 1);
+}
