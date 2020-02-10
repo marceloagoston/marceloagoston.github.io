@@ -23,6 +23,9 @@ body{
 	background-color: #212121;
 	font-family: 'Nunito', sans-serif;
 }
+a:hover{
+	text-decoration: none;
+}
 h1,h2,h3{
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -108,7 +111,14 @@ small{
 	margin-top: -130px;
 }
 section h5{
-	color: rgba(255,255,255,0.65);
+	color: #999;
+}
+.icon_sec{
+	display: flex;
+	justify-content: space-around;
+}
+.fnt_sz_3{
+	font-size: 3em;
 }
 @media only screen and (max-width: 800px) {
 	.rsp{
