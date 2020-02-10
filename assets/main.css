@@ -110,7 +110,7 @@ small{
 section h5{
 	color: rgba(255,255,255,0.65);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
 	.rsp{
 		display: block;
 	}
@@ -128,7 +128,7 @@ section h5{
 		font-size: 1.5em;
 	}	
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 800px) {
 	.avatar{
 		margin-top: -90px;
 		width: 50%;
