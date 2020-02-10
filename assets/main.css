@@ -70,6 +70,8 @@ header a:hover{
 	}
 	.navbar a:hover, .navbar a:focus, section a:hover{
 		color: #FF7E38;
+		border-bottom-color: orange;
+		border-left-color: orange;
 	}
 section a{
 	font-weight: 700;
@@ -95,7 +97,19 @@ small{
 .rsp{
 	display: none;
 }
-
+.colu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.avatar{
+	border-radius: 50%;
+	margin-top: -130px;
+}
+section h5{
+	color: rgba(255,255,255,0.65);
+}
 @media only screen and (max-width: 800px) {
 	.rsp{
 		display: block;
@@ -107,7 +121,20 @@ small{
 		background-color: #212121;
 		border-color: #212121;
 	}
+	#logo {
+    width: 50%;
+	}
+	.icono_rsp{
+		font-size: 1.5em;
+	}	
 }
+@media only screen and (max-width: 800px) {
+	.avatar{
+		margin-top: -90px;
+		width: 50%;
+	}	
+}
+
 
 /* Override Bootstrap */
 .dropdown-menu.show {
