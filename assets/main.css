@@ -90,7 +90,7 @@ small{
 	color: #ff9a00;
 }
 .work{
-	padding: 5%;
+	padding: 3%;
 	background-color: #323232;
 }
 .icono{
@@ -123,6 +123,12 @@ section h5{
 }
 .fnt_sz_3:hover{
 	color: #FF7E38;
+}
+.p_cont{
+	font-size: 1.5rem;
+}
+.h2_cont{
+	font-size: 4rem;
 }
 @media only screen and (max-width: 800px) {
 	.rsp{
