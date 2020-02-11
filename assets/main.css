@@ -120,6 +120,9 @@ section h5{
 .fnt_sz_3{
 	font-size: 3em;
 }
+.fnt_sz_3:hover{
+	color: #FF7E38;
+}
 @media only screen and (max-width: 800px) {
 	.rsp{
 		display: block;
@@ -136,13 +139,14 @@ section h5{
 	}
 	.icono_rsp{
 		font-size: 1.5em;
-	}	
-}
-@media only screen and (max-width: 800px) {
+	}
+	.icono_rsp:hover{
+		color: #FF7E38;
+	}
 	.avatar{
 		margin-top: -90px;
 		width: 50%;
-	}	
+	}		
 }
 
 
