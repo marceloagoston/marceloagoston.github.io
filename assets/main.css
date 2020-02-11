@@ -116,6 +116,7 @@ section h5{
 .icon_sec{
 	display: flex;
 	justify-content: space-around;
+	padding-top: 0;
 }
 .fnt_sz_3{
 	font-size: 3em;
