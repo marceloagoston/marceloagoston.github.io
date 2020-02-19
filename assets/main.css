@@ -22,6 +22,9 @@
 body{
 	background-color: #212121;
 	font-family: 'Nunito', sans-serif;
+	border-style: solid;
+	border-color:transparent;
+	border-top-color:#a30000;
 }
 a:hover{
 	text-decoration: none;
